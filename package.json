@@ -1,0 +1,16 @@
+﻿{
+  "name": "fruits-by-pili-bot",
+  "version": "1.0.0",
+  "description": "Tommy - WhatsApp Bot for Fruits by Pili",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.16.1",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
